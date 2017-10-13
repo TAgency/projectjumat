@@ -14,40 +14,35 @@
   right: -50px;
 }
 .player {
- padding-left: 200px;
+ padding-left: 150px;
   position: absolute;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  padding-top: 650px;
+  padding-top: 600px;
 }
 
 .health1 {
   border: ridge;
   height: 18px;
-  width: 250px;
-  background: green;
+  width: 240px;
+  background: rgb(255, 255, 255);
   display: flex;
   align-self: flex-start;
 }
 .health4 {
   border: ridge;
   height: 18px;
-  width: 250px;
-  background: rgb(255, 255, 255);
+  width: 240px;
+  background: green;
   display: flex;
   align-self: flex-start;
   margin-top: -17px;
 }
 
-
 .command {
   display: flex;
-  align-items: center;
-}
-
-.attack {
-  font-size: x-large;
+  align-self: flex-end;
 }
 
 .runin {
@@ -62,20 +57,16 @@
 .health2 {
   border: ridge;
   height: 18px;
-  width: 250px;
-  /* margin-top: 20px;
-  margin-left: 290px; */
+  width: 240px;
   background: rgb(255, 255, 255);
 }
 .health3 {
   border: ridge;
   height: 18px;
-  width: 250px;
-  /* margin-top: 20px;
-  margin-left: 290px; */
+  width: 240px;
   position: absolute;
   top: 0;
   background: green; 
-  /* margin-top: -19px; */
+ 
 
 }
