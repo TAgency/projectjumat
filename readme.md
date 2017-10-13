@@ -1,6 +1,7 @@
-#Pokemon Collection
+# Pokemon Collection
 
 ![Pokemon](pokemon.jpg)
+
 Simple web app that displays pokemon collection
 
 ## Features
