@@ -74,7 +74,28 @@ const pokemonCollection = [
     type: "Electric",
     generation: 1,
     image: "https://img.pokemondb.net/sprites/black-white/anim/normal/pikachu.gif"
-  }
+  },
+  {
+    id: 11,
+    name: "Entei",
+    type: "Fire",
+    generation: 1,
+    image: "https://img.pokemondb.net/sprites/black-white/anim/normal/entei.gif"
+  },
+  {
+    id: 12,
+    name: "Raikou",
+    type: "Electric",
+    generation: 1,
+    image: "https://img.pokemondb.net/sprites/black-white/anim/normal/raikou.gif"
+  },
+  {
+    id: 13,
+    name: "Suicune",
+    type: "Water",
+    generation: 1,
+    image: "https://img.pokemondb.net/sprites/black-white/anim/normal/suicune.gif"
+  },
 ]
 // copas untuk eror header
 app.use((req, res, next) => {
