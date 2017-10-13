@@ -1,0 +1,22 @@
+.title{
+    text-align: center;
+}
+.paragraph{
+    text-align: justify;
+}
+.navbar-brand{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin:0 auto;
+}
+.navbar-toggle {
+    z-index:3;
+}
+
+.brandimage{
+    width:150px;
+margin-left: 500px;
+margin-top: -45px;
+}

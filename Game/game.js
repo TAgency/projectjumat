@@ -12,7 +12,7 @@ document.getElementById('atk').onclick = function() {
     attack(40,20)
 }
 document.getElementById('atk2').onclick = function() {
-    attack(0,40)
+    attack(10,40)
 }
 document.getElementById('atk3').onclick = function() {
     attack(20,10)
