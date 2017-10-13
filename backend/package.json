@@ -4,8 +4,14 @@
   "description": "API system",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo 'TEST'",
+    "start": "node index",
+    "dev": "nodemon index"
   },
+  "keywords": [
+    "pokemon",
+    "backend"
+  ],
   "author": "Thq and Andrew",
   "license": "MIT",
   "dependencies": {
