@@ -9,7 +9,7 @@
   "keywords": [
     "pokedex"
   ],
-  "author": "",
+  "author": "Thq & Andrew",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^3.3.7",

@@ -1,33 +1,33 @@
 const express = require("express")
 const app = express()
 
-const gunplaCollection = [
+const pokemonCollection = [
   {
     id: 0,
-    model: "DUMMY",
-    year: 2000,
-    price: 100000
+    name: "Bulbasaur",
+    type: "Grass Poison",
+    generation: 1
   },
   {
     id: 1,
-    model: "Gundam Barbatos",
-    year: 2015,
-    price: 800000
+    name: "Charmander",
+    type: "Fire",
+    generation:1
   },
   {
     id: 2,
-    model: "Gundam Unicorn",
-    year: 2010,
-    price: 1200000
+    name: "Squirtle",
+    type: "Water",
+    generation: 1
   },
   {
     id: 3,
-    model: "Gundam RX",
-    year: 2000,
-    price: 3200000
+    name: "Pikachu",
+    type: "Electric",
+    generation: 1
   }
 ]
-
+// copas untuk eror header
 app.use((req, res, next) => {
   res.header("Access-Control-Allow-Origin", "*")
   res.header(
@@ -38,7 +38,7 @@ app.use((req, res, next) => {
 })
 
 app.get("/", (req, res) => {
-  res.send(gunplaCollection)
+  res.send(pokemonCollection)
 })
 
 app.listen(3000, () => {
