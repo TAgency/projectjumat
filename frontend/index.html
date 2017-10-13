@@ -10,49 +10,51 @@
 </head>
 
 <body>
+  <!-- body -->
   <div class="container">
-    <header>
+
+    <!-- header -->
+    <header class="app-header">
       <h1 class="title">PokeDex</h1>
       <img class="pokeball" src="pokeball.png" alt="">
     </header>
-    <table class="table table-bordered">
-      <tr>
-        <th>ID</th>
-        <th>Name</th>
-        <th>Type</th>
-        <th>Generation</th>
-      </tr>
-      <tr>
-        <td>001</td>
-        <td>Bulbasaur</td>
-        <td>Grass Poison</td>
-        <td>1</td>
-      </tr>
-      <tr>
-        <td>002</td>
-        <td>Charmander</td>
-        <td>Fire</td>
-        <td>1</td>
-      </tr>
-      <tr>
-        <td>003</td>
-        <td>Squirtle</td>
-        <td>Water</td>
-        <td>1</td>
-      </tr>
-      <tr>
-        <td>004</td>
-        <td>Pikachu</td>
-        <td>Electric</td>
-        <td>1</td>
-      </tr>
-    </table>
+    <!-- Penutup header -->
+
+    <!-- Table -->
+    <main class="app-header">
+      <table class="table table-bordered">
+        <table class="table">
+          <thead id="app-table-head">
+            <tr>
+              <th>ID</th>
+              <th>Model Gundam</th>
+              <th>Year</th>
+              <th>Price</th>
+            </tr>
+          </thead>
+          <tbody id="app-table-body">
+            <!-- DATA FROM API -->
+          </tbody>
+        </table>
+      </table>
+    </main>
+    <!-- Penutup table -->
+
     <button onclick="click"><a href="file:///C:/Users/G750JX/Documents/coding/projectjumat/Game/game.html">Game</a></button>
+
+    <!-- footer -->
     <footer>
       Copyright @TAgency
     </footer>
+    <!-- penutup footer -->
   </div>
+
+  <!-- script -->
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="index.js"></script>
+  <!-- penutup script -->
+
+  <!-- penutup body -->
 </body>
-<script src="node_modules/jquery/dist/jquery.min.js"></script>
-<script src="index.js"></script>
+
 </html>
